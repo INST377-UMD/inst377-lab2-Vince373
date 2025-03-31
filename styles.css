@@ -1,0 +1,65 @@
+/* General Page Styling */
+body {
+    background-color: #f5deb3; /* Light tan background */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit Button Styling */
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover Effect for Submit Button */
+input[type="submit"]:hover {
+    background-color: grey;
+}
+
+/* Thank You Page Styling */
+.thank-you-page {
+    background-color: #ffebcd; /* Different background color */
+    text-align: center;
+}
+
+img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
